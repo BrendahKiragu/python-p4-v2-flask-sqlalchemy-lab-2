@@ -5,6 +5,7 @@ from models import db, Customer, Review, Item
 
 with app.app_context():
 
+    
     Customer.query.delete()
     Review.query.delete()
     Item.query.delete()
